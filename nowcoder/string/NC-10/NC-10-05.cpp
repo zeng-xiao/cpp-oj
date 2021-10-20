@@ -15,7 +15,7 @@ string solve(string s, string t) {
         }
     }
 
-    int index = tmp[0] == 0 ? 1 : 0;
+   int index = tmp[0] ? 0 : 1;
 
     for(auto int2str = tmp.begin() + index; int2str != tmp.end(); int2str++)
         // tmp.begin() + index
